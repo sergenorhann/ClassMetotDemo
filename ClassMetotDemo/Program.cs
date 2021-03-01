@@ -25,8 +25,8 @@ namespace ClassMetotDemo
             musteri2.Il = "Mersin";
             musteriManager.MusteriEkle(musteri2);
 
-
             musteriManager.MusteriListele(musteri1,musteri2);
+
             musteriManager.MusteriSil(musteri1);
             musteriManager.MusteriSil(musteri2);
         }

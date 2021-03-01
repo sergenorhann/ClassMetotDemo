@@ -16,7 +16,6 @@ namespace ClassMetotDemo
         {
             Console.WriteLine(musteri.Id.ToString() + " Id Numaralı " + musteri.Adi.ToUpper() +" "+ musteri.Soyadi.ToUpper() + " başarıyla silindi.\n");
         }
-
         public void MusteriListele(params Musteri[] musteriler)
         {
             foreach (Musteri musteri in musteriler)
