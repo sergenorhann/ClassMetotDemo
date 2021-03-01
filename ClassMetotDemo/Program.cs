@@ -30,6 +30,8 @@ namespace ClassMetotDemo
 
             musteriManager.MusteriSil(musteri1);
             musteriManager.MusteriSil(musteri2);
+            musteriManager.MusteriSil(musteri1);
+            musteriManager.MusteriSil(musteri2);
         }
     }
 }
