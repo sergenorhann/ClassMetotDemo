@@ -27,6 +27,7 @@ namespace ClassMetotDemo
 
 
             musteriManager.MusteriListele(musteri1,musteri2);
+
             musteriManager.MusteriSil(musteri1);
             musteriManager.MusteriSil(musteri2);
         }
