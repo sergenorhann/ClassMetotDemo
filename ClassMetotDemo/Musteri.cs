@@ -6,6 +6,7 @@ namespace ClassMetotDemo
 {
     class Musteri
     {
+
         public int Id { get; set; }
         public long TcNo { get; set; }
         public string Adi { get; set; }

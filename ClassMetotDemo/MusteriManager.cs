@@ -29,6 +29,7 @@ namespace ClassMetotDemo
                 MusteriSayisi++;
             }
             Console.WriteLine("Güncel Müşteri Sayısı : " + MusteriSayisi.ToString()+"\n");
+
         }
 
     }

@@ -4,6 +4,7 @@ namespace ClassMetotDemo
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             MusteriManager musteriManager = new MusteriManager();
@@ -25,13 +26,11 @@ namespace ClassMetotDemo
             musteri2.Il = "Mersin";
             musteriManager.MusteriEkle(musteri2);
 
-
             musteriManager.MusteriListele(musteri1,musteri2);
 
             musteriManager.MusteriSil(musteri1);
             musteriManager.MusteriSil(musteri2);
-            musteriManager.MusteriSil(musteri1);
-            musteriManager.MusteriSil(musteri2);
+
         }
     }
 }
